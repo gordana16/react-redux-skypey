@@ -1,0 +1,13 @@
+.Sidebar {
+  flex: 0 0 8rem;
+  border-right: 1px solid rgba(189, 189, 192, 0.1);
+  transition: width 0.3s;
+  background-color: #202023;
+}
+
+@media only screen and (min-width: 36em) {
+  .Sidebar {
+    flex: 0 0 30rem;
+    overflow-y: scroll;
+  }
+}

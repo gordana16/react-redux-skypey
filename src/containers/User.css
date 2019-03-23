@@ -1,0 +1,30 @@
+.User {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.User:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.User__pic {
+  height: 5rem;
+  border-radius: 50%;
+}
+.User__details {
+  display: none;
+}
+
+@media only screen and (min-width: 36em) {
+  .User__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .User__details-name {
+    margin-bottom: 1rem;
+  }
+}
